@@ -23,4 +23,4 @@ As we release new homeworks, or if we discover mistakes and update an already re
 git pull
 ```
 
-That's it - you'll have the latest version of the homeworks. 
+That's it - you'll have the latest version of the homeworks. yay!!
