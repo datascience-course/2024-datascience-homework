@@ -80,7 +80,7 @@ Notebooks make use of an improved, interactive client for python called [IPython
 $ conda install ipython
 ```
 
-and confirm that in fact ipython 7.31.* is installed.
+and confirm that in fact ipython 8.15.0 is installed.
 ```
 $ ipython --version
 8.15.0
