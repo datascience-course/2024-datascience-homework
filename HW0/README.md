@@ -25,17 +25,17 @@ $ python
 
 However, as most software, Python comes in different versions and is packaged differently depending on your needs. In this class we'll use a Python distribution called Anaconda. Anaconda comes with a lot of packages that we'll need, so it is the most hassle-free option for us.
 
-Go to [this website](https://www.anaconda.com/download/) and install anaconda for Python 3.9 for your operating system. [Here](https://docs.continuum.io/anaconda/install) are installation instructions if you need them. If you already have anaconda installed, please make sure that you're using the latest version or [update](http://docs.continuum.io/anaconda/install/update-version/) if necessary. For example on a Mac anaconda can be updated to the most recent version (2022.10) by entering the following commands in the command line:
+Go to [this website](https://www.anaconda.com/download/) and install anaconda for Python 3.11 for your operating system. [Here](https://docs.continuum.io/anaconda/install) are installation instructions if you need them. If you already have anaconda installed, please make sure that you're using the latest version or [update](http://docs.continuum.io/anaconda/install/update-version/) if necessary. For example on a Mac anaconda can be updated to the most recent version (2023.09-0) by entering the following commands in the command line:
 
 ```
 $ conda update conda
-$ conda install anaconda=2022.10  
+$ conda install anaconda=2023.09-0
 ```
 
-You'll have to create a new environment for Python 3.9 if you're not using that already. If you did a fresh install, this won't be necessary. Here is the update command:
+You'll have to create a new environment for Python 3.11 if you're not using that already. If you did a fresh install, this won't be necessary. Here is the update command:
 
 ```
-$ conda install python=3.9
+$ conda install python=3.11
 ```
 
 Once you've installed Anaconda, close your terminal window and re-open it - otherwise your terminal won't recognize the Anaconda commands.
@@ -52,14 +52,14 @@ from your terminal. You should see something like this as a result:
 
 ```
 $ conda --version
-conda 22.11.1 
+conda 23.7.4 
 ```
 
 Similarly, for python, you should see something like this:
 
 ```
 $ python --version
-Python 3.9.13
+Python 3.11.5
 ```
 
 Note that all of these commands can be done through the Anaconda Navigator itself. To do so, go to the "Environments" tab on the left-hand side of Anaconda Navigator. From there, you can search for python (or any of the other packages installed) and the version will be clearly indicated.
@@ -72,7 +72,7 @@ You can also check out the [official website](http://conda.pydata.org/docs/test-
 
 We'll be running Python through Jupyter Notebooks as they are great for the data science process and for teaching, but you should be aware of the other options we discuss here.
 
-Notebooks are stored in files that end with a `.ipynb` extension. They are included in the [basic-python](https://github.com/datascience-course/2022-datascience-homework/tree/main/HW0/basic-python) folder in this directory. Download them and save them to a folder.
+Notebooks are stored in files that end with a `.ipynb` extension. They are included in the [basic-python](https://github.com/datascience-course/2024-datascience-homework/tree/main/HW0/basic-python) folder in this directory. Download them and save them to a folder.
 
 Notebooks make use of an improved, interactive client for python called [IPython](https://ipython.org/). IPython might already be installed in the latest version if you did a clean anaconda install. To check, we'll use anaconda to install the proper version of IPython. Run:
 
@@ -83,7 +83,7 @@ $ conda install ipython
 and confirm that in fact ipython 7.31.* is installed.
 ```
 $ ipython --version
-7.31.1
+8.15.0
 ```
 
 Now, change directories in your console so that you're in the directory where the notebook file is saved and run:
